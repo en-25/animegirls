@@ -5,7 +5,11 @@ body {
     background-position-x: 79%;
     background-position-y: 25px;
     background-size: 25%;
-    background-attachment: fixed;
+    background-attachment: scroll;
+    border-style: inset;
+    border-width: 16px;
+    border-bottom-width: 50px;
+    border-color: rgba(91, 42, 128, 0.5);
 }
 
 img {
@@ -14,5 +18,11 @@ img {
     max-height: 100%;
     width: auto;
     height: auto;
-    border-radius: 7%;;
+    border-radius: 7%;
+}
+
+    .border {
+    border-style: inset;
+    border-width: 25px;
+    border-color: rgba(91, 42, 128, 0.5);
 }
