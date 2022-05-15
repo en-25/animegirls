@@ -1,5 +1,11 @@
 body {
-    background-color: rebeccapurple;
+    background-color: rgba(93, 198, 165, 0.5);
+    background-image: url("a.png");
+    background-repeat: no-repeat;
+    background-position-x: 79%;
+    background-position-y: 25px;
+    background-size: 25%;
+    background-attachment: fixed;
 }
 
 img {
@@ -8,4 +14,5 @@ img {
     max-height: 100%;
     width: auto;
     height: auto;
-    }
+    border-radius: 7%;;
+}
